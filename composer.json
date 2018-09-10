@@ -1,0 +1,26 @@
+{
+    "name": "talesoft/tale-socket",
+    "type": "library",
+    "keywords": ["socket"],
+    "description": "",
+    "license": "MIT",
+    "homepage": "http://docs.talesoft.codes/php/tale/socket",
+    "authors": [
+        {
+            "name": "Torben Köhn",
+            "email": "torben@talesoft.codes"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tale\\": "src",
+            "Tale\\Test\\": "tests"
+        }
+    },
+    "require-dev": {
+        "talesoft/tale-dev-tool": "^0.2.5"
+    }
+}
